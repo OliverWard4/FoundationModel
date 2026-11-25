@@ -10,12 +10,12 @@ Way Ai assisted me:
 
 - Ai helped me create tests to visualize the progression of training
 
-- AI helped find and explain the introductory MAE research paper
+- AI helped find exaplain and guide the development of the backbone model. This included how to access hugging face and interface with teh pretrained model.
 
-Ai gave me several suggestions that were wrong. I used Ai to try and help me determine if my data was over-fitting. The Ai was generally just guessing and providing random reasons as to why.
+Ai gave me several suggestions that were wrong. I used Ai to try and help me determine if my data was over-fitting. The Ai was generally just guessing and providing random reasons as to why. AI also wanted by default was steering me towards using unlabeled data which is in violation of the assignment. 
 
 Some suggestions were as simple as adjusting a hyper parameter to test but others required more resources to identify their validity. In some cases I believed the model and was not until I implemented my fix that I was able to improve results. I also had AI link me to the torch documentation to help me understand where and what the AI was referencing. 
 
-One Architectural decision I made was the incorporation of augmentations into the classification step. 
+One Architectural decision I made was freezing the pretrained models weights to prevent overfitting. 
 
 
