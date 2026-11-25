@@ -13,7 +13,6 @@ To reproduce this project, you will need:
 - Git
 - data
 
-
 The project was completed using a Jupyter Notebook running on an `ipykernel` within a Python virtual environment.
 
 ## Linux Setup
@@ -87,7 +86,8 @@ Pillow
 jupyter
 ipykernel
 scikit-learn
-
+pandas
 ```
 ```
 
+Optional add a .env token with a hf_token secret if you want to login using your hugging face account. Make sure teh .env file is in the same directory as the jupyter notebook.
